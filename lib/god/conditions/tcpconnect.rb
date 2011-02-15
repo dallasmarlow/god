@@ -1,7 +1,7 @@
 module God
   module Conditions
     class Tcpconnect < PollCondition
-      attr_accessor :port
+      attr_accessor :port,
                     :host,
                     :timeout
       def initialize
