@@ -68,6 +68,7 @@ Gem::Specification.new do |s|
     lib/god/conditions/process_exits.rb
     lib/god/conditions/process_running.rb
     lib/god/conditions/tries.rb
+    lib/god/conditions/tcpconnect.rb
     lib/god/configurable.rb
     lib/god/contact.rb
     lib/god/contacts/campfire.rb
